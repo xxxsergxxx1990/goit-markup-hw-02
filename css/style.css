@@ -143,6 +143,7 @@ a{
 
 /* портфолио */
 .port--button{    
+    cursor: pointer;
     background-color: #F5F4FA;
     border: none;
     padding-left: 22px;
