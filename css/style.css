@@ -6,7 +6,7 @@
 
 
 body{
-   
+    font-family: roboto,sans-serif;
     color: var(--text-color);
     margin: 0;
 }
@@ -17,12 +17,18 @@ a{
     text-decoration: none;
 }
 .logo{
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
     color: #000000;
 }
 .logo--item{
     color: var(--text-accent);
 }
 .pageHeader--link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--text-color);
 }
 .pageHeader--link:hover,
@@ -48,6 +54,12 @@ a{
 }
 .hero--tittle{
     color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero--button{
     background-color: var(--text-accent);
@@ -60,25 +72,64 @@ a{
     padding-left: 32px;
     padding-right: 32px;
 }
+.benefits--tittle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
 .benefits--text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
     color:var(--text-secondColor);
 }
+.activity{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.team--tittle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team--name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
 .team--player{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
     color: var(--text-secondColor);
 }
 .foot{
     background-color: #2F303A;;
 }
 .foot--logo{
+    font-family: Raleway,sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
     color: #fff;
 }
 .foot--text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
     color: #fff;
 }
 .foot--connection{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 .foot--tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -91,7 +142,11 @@ a{
     padding-top: 6px;
     padding-bottom: 6px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 .port--button:hover,
 .port--button:focus{
@@ -99,6 +154,15 @@ border-radius: 4px;
     color: #fff;
 }
 
+
+.port--projects{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
 .port--all{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
     color: var(--text-secondColor);
 }
