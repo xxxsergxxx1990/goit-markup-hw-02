@@ -126,11 +126,19 @@ a{
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
+.foot--connection:hover,
+.foot--connection:focus{
+    color: var(--text-accent);
+}
 .foot--tel{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
+}
+.foot--tel:hover,
+.foot--tel:focus{
+    color: var(--text-accent);
 }
 
 /* портфолио */
